@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  border: 2px solid red;
 }
 
 /* Remove default margin */
@@ -109,4 +110,40 @@ li {
 
 p {
     width: 52ch;
+}
+
+.one {
+    background-color: aquamarine;
+    padding: 20px;
+    font-size: 40px;
+    margin: 100px;
+    color: rebeccapurple;
+    text-align: center;
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    flex-direction: row;
+}
+
+.nav-links > a {
+    background-color: bisque;
+    color: blue;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: 150px;
+    font-size: 700;
+    font-size: 30px;
+    width: 200px;
+    transition-duration: 0.6s;
+}
+
+.nav-links > a:hover {
+    background-color: blueviolet;
 }
